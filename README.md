@@ -1,17 +1,4 @@
-# ⚡ ChargeWayV AI Assistant Backend
-
-This is the backend server for the ChargeWayV AI Assistant. It is built using Flask and provides endpoints for generating LiveKit tokens and handling AI assistant queries.
-
----
-
-## 🚀 Features
-
-- LiveKit token generation (`/getToken`)
-- Health check endpoint (`/health`)
-- AI Assistant endpoint (`/assistant`) for processing user queries
-
----
-
+# ⚡ ChargeWayV
 ## 📦 Installation
 
 ### 1. Clone the repository
@@ -48,23 +35,6 @@ pip install flask flask-cors python-dotenv livekit
 
 ---
 
-## ▶️ Running the Server
-
-Start the Flask development server on port `5001`:
-
-```bash
-python app.py
-```
-
-Once running, you’ll see:
-
-- `http://localhost:5001/health` – Health check
-- `http://localhost:5001/getToken?name=YourName` – Get token
-- `http://localhost:5001/assistant` – AI assistant (POST endpoint)
-
----
-
-## 📎 Related Files
 
 🔗 Google Drive Resource:  
 [Click here to view/download](https://drive.google.com/file/d/1Se1_U6Jqb7NVvZZ630L_V1UumNUJx43Z/view?usp=sharing)
